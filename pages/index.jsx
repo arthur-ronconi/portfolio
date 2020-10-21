@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <Seo />
       <div className="container">
-        <div className="row d-flex flex-row h-100 align-content-center">
+        <div className="row d-flex flex-row h-100 align-content-center align-items-center">
           <div className="col-md-6 py-5 pr-md-4 text-center text-md-right">
             <div>
               <a
@@ -29,7 +29,7 @@ export default function Home() {
                   arthur.ronconi@gmail.com
                 </a>
                 <br />
-                +55 27 999 862 894
+                <a href="https://wa.me/5527999862894">+55 27 999 862 894</a>
               </p>
               <p>
                 <a
