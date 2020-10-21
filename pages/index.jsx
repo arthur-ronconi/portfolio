@@ -1,5 +1,3 @@
-import Head from "next/head";
-import styles from "../styles/Home.module.scss";
 import Seo from "../components/seo";
 
 export default function Home() {
@@ -7,14 +5,51 @@ export default function Home() {
     <div>
       <Seo />
       <div className="container">
-        <div className="row content">
-          <a href="https://bit.ly/arthurronconi" rel="noopener noreferrer">
-            <h1>
-              <span className="bracket">{`{ `}</span>artu.dev
-              <span className="bracket">{` }`}</span>
-            </h1>
-          </a>
-          <p className="lead">Coming soon...</p>
+        <div className="row d-flex flex-row h-100 align-content-center">
+          <div className="col-md-6 py-5 pr-md-4 text-center text-md-right">
+            <div>
+              <a
+                href="https://bit.ly/arthurronconi"
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                <h1>
+                  <span className="bracket">{`{ `}</span>artu.dev
+                  <span className="bracket">{` }`}</span>
+                </h1>
+              </a>
+              <p className="lead">Front End Design/Development</p>
+            </div>
+          </div>
+          <div className="col-md-6 py-5 pl-md-4 text-center text-md-left">
+            <div className="contact">
+              <p className="h4">Arthur Ronconi</p>
+              <p>
+                <a href="mailto:arthur.ronconi@gmail.com">
+                  arthur.ronconi@gmail.com
+                </a>
+                <br />
+                +55 27 999 862 894
+              </p>
+              <p>
+                <a
+                  href="https://bit.ly/arthurronconi"
+                  rel="noopener noreferrer"
+                  target="blank"
+                >
+                  LinkedIn
+                </a>
+                <br />
+                <a
+                  href="https://github.com/arthur-ronconi"
+                  rel="noopener noreferrer"
+                  target="blank"
+                >
+                  GitHub
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
