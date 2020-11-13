@@ -9,10 +9,10 @@
     "push": "git push && git checkout main && git merge develop && git push && git checkout develop"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "next": "9.5.5",
+    "next": "10.0.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
-    "sass": "^1.27.0"
+    "sass": "^1.27.0",
+    "styled-components": "^5.2.1"
   }
 }
