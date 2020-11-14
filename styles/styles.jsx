@@ -59,6 +59,7 @@ export const Link = styled.a`
 
 export const HeroSection = styled.div`
   padding: 8rem 0;
+  margin: auto 0;
   background-color: ${colors.black};
   color: ${colors.white};
 `;

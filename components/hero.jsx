@@ -23,7 +23,36 @@ export default function Hero() {
               My name is <span>Arthur Ronconi.</span>
               <br />I am a <span>front end developer.</span>
             </Lead>
-            <Button href="#">Contact Me</Button>
+            {/* <Button href="#">Contact Me</Button> */}
+            <div style={{ display: "flex", flexDirection: "row" }}>
+              <a
+                href="https://bit.ly/arthurronconi"
+                rel="noopener noreferrer"
+                target="blank"
+                style={{
+                  marginRight: "0.5rem",
+                }}
+              >
+                <Image
+                  src="/img/linkedin.svg"
+                  alt="LinkedIn"
+                  width={48}
+                  height={48}
+                />
+              </a>
+              <a
+                href="https://github.com/arthur-ronconi"
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                <Image
+                  src="/img/github.svg"
+                  alt="LinkedIn"
+                  width={48}
+                  height={48}
+                />
+              </a>
+            </div>
           </div>
           <div>
             <Image

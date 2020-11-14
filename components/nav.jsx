@@ -22,9 +22,9 @@ export default function Nav() {
               </Brand>
             </NavbarBrand>
             <NavbarLinks>
-              <Link href="#">
+              {/* <Link href="#">
                 <span>{`<`}</span>Contact<span>{`/>`}</span>
-              </Link>
+              </Link> */}
             </NavbarLinks>
           </NavbarContainer>
         </Container>
