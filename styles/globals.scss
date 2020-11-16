@@ -10,6 +10,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: all 0.1s ease-in-out;
 }
 
 body {
@@ -22,4 +23,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
