@@ -18,10 +18,10 @@ export const Container = styled.div`
     width: ${media.lg};
     margin: 0 auto;
   }
-  @media (min-width: ${media.xl}) {
+  /* @media (min-width: ${media.xl}) {
     width: ${media.xl};
     margin: 0 auto;
-  }
+  } */
 `;
 
 export const Navbar = styled.div`
@@ -67,14 +67,21 @@ export const HeroSection = styled.div`
 export const HeroContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  @media (min-width: ${media.lg}) {
+    justify-content: space-between;
+  }
 `;
 
 export const Heading = styled.h2`
   color: ${colors.white};
+  font-size: 2.5rem;
   span {
     color: ${colors.primary};
+  }
+  @media (min-width: ${media.md}) {
+    font-size: 3rem;
   }
   @media (min-width: ${media.xl}) {
     font-size: 4.5rem;
@@ -99,6 +106,10 @@ export const Button = styled.a`
     color: darken(${colors.white}, 15%);
   }
 `;
-export const HeroImage = styled.img`
-  /* margin-right: -3rem; */
+export const HeroImage = styled.div`
+  display: none;
+  transform: scale(0.7);
+  @media (min-width: ${media.lg}) {
+    display: block;
+  }
 `;
